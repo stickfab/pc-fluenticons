@@ -16,7 +16,7 @@ Go to **Settings > Themes > Quick CSS** and add the following code:
 [Follow these instructions](https://canary.discord.com/channels/538759280057122817/755015869914152981/760885231900426271)
 Go to your themes folder and run the following:
 
-    git clone https://github.com/DavidNyan10/GoogleMaterialIcons
+    git clone https://github.com/stickfab/pc-fluenticons
 
 
 <br/>
