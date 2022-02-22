@@ -10,7 +10,7 @@ A theme made for Powercord. A Powercord theme to replace most icons with Fluent 
 ## Quick CSS
 Go to **Settings > Themes > Quick CSS** and add the following code:
 
-    @import url("https://davidnyan10.github.io/GoogleMaterialIcons/GoogleMaterialIcons.css");
+    @import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
 
 ## Installation
 [Follow these instructions](https://canary.discord.com/channels/538759280057122817/755015869914152981/760885231900426271)
