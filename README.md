@@ -7,7 +7,7 @@ An icon pack for Powercord & BetterDiscord that replaces most icons with Microso
 ![Preview](https://cdn.discordapp.com/attachments/907448714254237726/945503400093712404/unknown.png)
 
 
-## Powercord Quick CSS & BetterDiscord Custom CSS
+## Powercord Quick CSS & BetterDiscord Custom CSS (Recommended)
 **Powercord:** Go to **Settings > Themes > Quick CSS** and add the following code
 
 **BetterDiscord:** First make sure Custom CSS is enabled by going to **Settings > BetterDiscord Settings > Custom CSS**, Then go to the **Custom CSS** section and add the following code. As of now this is the only way to get the theme working on BetterDiscord.
