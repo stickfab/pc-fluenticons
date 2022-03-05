@@ -44,6 +44,18 @@
 	transform: translate(-13%,-37%) scale(110%);
 }
 
+/* Close */
+[points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1"]{
+	clip-path: path("m2.589 2.716.057-.07a.5.5 0 0 1 .638-.057l.07.057L8 7.293l4.646-4.647a.5.5 0 0 1 .708.708L8.707 8l4.647 4.646a.5.5 0 0 1 .057.638l-.057.07a.5.5 0 0 1-.638.057l-.07-.057L8 8.707l-4.646 4.647a.5.5 0 0 1-.708-.708L7.293 8 2.646 3.354a.5.5 0 0 1-.057-.638l.057-.07-.057.07Z");
+	stroke: currentColor;
+    stroke-width: 100%;
+	transform: translate(-30%,-25%);
+}
+
+/* Maximize */
+
+/* Minimize */
+
 /* Check Boxes */
 [d='M18.625 3H5.375C4.06519 3 3 4.06519 3 5.375V18.625C3 19.936 4.06519 21 5.375 21H18.625C19.936 21 21 19.936 21 18.625V5.375C21.0057 4.08803 19.9197 3 18.625 3ZM19 19V5H4.99999V19H19Z'] {
 	d: path('M5.75 3h12.5A2.75 2.75 0 0 1 21 5.75v12.5A2.75 2.75 0 0 1 18.25 21H5.75A2.75 2.75 0 0 1 3 18.25V5.75A2.75 2.75 0 0 1 5.75 3Zm0 1.5c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V5.75c0-.69-.56-1.25-1.25-1.25H5.75Z');
@@ -724,15 +736,12 @@
 	transform: translate(-7%,-7%) scale(172%);
 }
 .emptyChannelIcon-1YdEz2 {
-    width: 68px;
-    height: 68px;
-    margin-top: 16px;
-    border-radius: 50%;
     background-color: #fff;
     background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Number Symbol/SVG/ic_fluent_number_symbol_48_regular.svg");
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
-    background-repeat: no-repeat;
-    background-position: 50%;
+}
+.emptyChannelIcon-1YdEz2.locked-29sj8C {
+    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Number Symbol/SVG/ic_fluent_number_symbol_48_regular.svg");
 }
 
 /* Locked channels */
@@ -1019,6 +1028,11 @@
 }
 
 /* Grid */
+/* .controlIcon-10O-4h>rect{
+	clip-path: path("M2 4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4Z");
+	stroke: currentColor;
+    stroke-width: 200%;
+} */
 
 
 /* Add Event */
@@ -1040,6 +1054,14 @@
 }
 [d='M6.5 8.00667C7.88 8.00667 9 6.88667 9 5.50667C9 4.12667 7.88 3.00667 6.5 3.00667C5.12 3.00667 4 4.12667 4 5.50667C4 6.88667 5.12 8.00667 6.5 8.00667Z'],[d='M14 2H16V3H14V5H13V3H11V2H13V0H14V2Z']{
 	color: transparent;
+}
+
+/* Add Channel */
+[points="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8"]{
+	clip-path: path("M8 5a.5.5 0 0 1 .5.5v2h2a.5.5 0 0 1 0 1h-2v2a.5.5 0 0 1-1 0v-2h-2a.5.5 0 0 1 0-1h2v-2A.5.5 0 0 1 8 5M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8m6-5a5 5 0 1 0 0 10A5 5 0 0 0 8 3");
+	stroke: currentColor;
+    stroke-width: 200%;
+	transform: scale(140%) translate(-24%,-23%);
 }
 
 /* Sync */
@@ -1162,6 +1184,12 @@
 
 /* Video Player */
 /* Play */
+[points="0 0 0 14 11 7"] {
+    clip-path: path("M7.608 4.615a.75.75 0 0 0-1.108.659v13.452a.75.75 0 0 0 1.108.659l12.362-6.726a.75.75 0 0 0 0-1.318L7.608 4.615ZM5 5.274c0-1.707 1.826-2.792 3.325-1.977l12.362 6.726c1.566.853 1.566 3.101 0 3.953L8.325 20.702C6.826 21.518 5 20.432 5 18.726V5.274Z");
+	stroke: currentColor;
+    stroke-width: 100%;
+	transform: translate(-3%,0%);
+}
 
 /* Pause */
 [d='M0,14 L4,14 L4,0 L0,0 L0,14 L0,14 Z M8,0 L8,14 L12,14 L12,0 L8,0 L8,0 Z'] {
