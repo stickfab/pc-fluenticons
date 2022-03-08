@@ -59,12 +59,12 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord-Nitro-tab" i]::before {
-	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/nitro.svg) center/contain no-repeat; /* TODO */
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/ic_fluent_nitro_24_regular.svg) center/contain no-repeat; /* TODO */
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro-Server-Boost-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="GUILD_PREMIUM-tab" i]::before {
-	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg) center/contain no-repeat; /* TODO */
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/ic_fluent_boost_24_regular.svg) center/contain no-repeat; /* TODO */
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library Inventory-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library-Inventory-tab" i]::before {
