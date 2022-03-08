@@ -27,7 +27,7 @@ All of the icons are taken from https://github.com/microsoft/fluentui-system-ico
 
 Thanks to [DavidNyan10](https://github.com/DavidNyan10) for the base of the theme.
 
-If there's any issues or missing icons, let me know by pinging me on discord @stickfab#0985 or by making a pull request.
+If there's any issues or missing icons, let me know by pinging me on discord @stickfab#0985 or by writing an [issue](https://github.com/stickfab/pc-fluenticons/issues).
 <br/>
 
 ###### Created by stickfab#0985 / Original by DavidNyan10#8581
