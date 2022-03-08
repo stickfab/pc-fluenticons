@@ -91,7 +91,7 @@
 }
 .secured-2wavXv:before {
     content: " ";
-    background: url(https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Lock%20Closed/SVG/ic_fluent_lock_closed_24_regular.svg) 50% no-repeat;
+    background: url(https://stickfab.github.io/pc-fluenticons/assets/24/lock_closed.svg) 50% no-repeat;
 	filter: invert(85%) sepia(6%) saturate(4015%) hue-rotate(78deg) brightness(85%) contrast(93%);
     width: 9px;
     height: 12px;
@@ -107,7 +107,7 @@
 	transform: translate(0%,0%) scale(90%);
 }
 .warnIcon-3ly1wg {
-    background-image: url(https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Info/SVG/ic_fluent_info_24_regular.svg);
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/24/info.svg);
 	filter: invert(76%) sepia(69%) saturate(2337%) hue-rotate(345deg) brightness(99%) contrast(97%);
 }
 
@@ -139,13 +139,24 @@
 
 /* Permission Check */
 .permissionCheckmark-ji-OoY {
-    background: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Checkmark Circle/SVG/ic_fluent_checkmark_circle_20_regular.svg") no-repeat;
+    background: url(https://stickfab.github.io/pc-fluenticons/assets/20/checkmark_circle.svg) no-repeat;
 	filter: invert(55%) sepia(9%) saturate(2732%) hue-rotate(86deg) brightness(97%) contrast(84%);
 }
 
 /* Add Server */
 [d='M20 11.1111H12.8889V4H11.1111V11.1111H4V12.8889H11.1111V20H12.8889V12.8889H20V11.1111Z'] {
 	d: path('M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Zm0 1.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17ZM12 7a.75.75 0 0 1 .75.75v3.5h3.5a.75.75 0 0 1 0 1.5h-3.5v3.5a.75.75 0 0 1-1.5 0v-3.5h-3.5a.75.75 0 0 1 0-1.5h3.5v-3.5A.75.75 0 0 1 12 7Z');
+}
+
+/* Upload Server Image */
+
+[d='M48 26.001H46.07C45.402 26.001 44.777 25.667 44.406 25.111L43.594 23.891C43.223 23.335 42.598 23 41.93 23H38.07C37.402 23 36.777 23.335 36.406 23.89L35.594 25.11C35.223 25.667 34.598 26 33.93 26H32C30.895 26 30 26.896 30 28V39C30 40.104 30.895 41 32 41H48C49.104 41 50 40.104 50 39V28C50 26.897 49.104 26.001 48 26.001ZM40 39C36.691 39 34 36.309 34 33C34 29.692 36.691 27 40 27C43.309 27 46 29.692 46 33C46 36.31 43.309 39 40 39Z'] {
+	d: path('M30.997 12a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm-2.5 5a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0ZM6 10.75A4.75 4.75 0 0 1 10.75 6h26.5A4.75 4.75 0 0 1 42 10.75v26.5a4.732 4.732 0 0 1-1.157 3.106 1.255 1.255 0 0 1-.486.487A4.732 4.732 0 0 1 37.25 42h-26.5a4.731 4.731 0 0 1-3.111-1.16 1.25 1.25 0 0 1-.475-.475A4.732 4.732 0 0 1 6 37.25v-26.5Zm33.5 26.5v-26.5a2.25 2.25 0 0 0-2.25-2.25h-26.5a2.25 2.25 0 0 0-2.25 2.25v26.5c0 .157.016.31.046.457L21.37 25.085a3.75 3.75 0 0 1 5.26 0l12.824 12.62c.03-.147.046-.3.046-.455ZM10.75 39.5h26.5c.145 0 .286-.014.424-.04L24.877 26.867a1.25 1.25 0 0 0-1.754 0L10.328 39.46c.137.026.278.039.422.039Z');
+	transform: translate(20%,20%);
+}
+
+[d='M24.6097 52.712V47.72H22.5457V52.736C22.5457 53.792 22.0777 54.404 21.1417 54.404C20.2177 54.404 19.7377 53.78 19.7377 52.712V47.72H17.6737V52.724C17.6737 55.04 19.0897 56.132 21.1177 56.132C23.1217 56.132 24.6097 55.016 24.6097 52.712ZM26.0314 56H28.0834V53.252H28.6114C30.6154 53.252 31.9474 52.292 31.9474 50.42C31.9474 48.62 30.7114 47.72 28.6954 47.72H26.0314V56ZM29.9554 50.456C29.9554 51.308 29.4514 51.704 28.5394 51.704H28.0594V49.268H28.5754C29.4874 49.268 29.9554 49.664 29.9554 50.456ZM37.8292 56L37.5532 54.224H35.0092V47.72H32.9572V56H37.8292ZM45.9558 51.848C45.9558 49.292 44.4078 47.564 42.0078 47.564C39.6078 47.564 38.0478 49.304 38.0478 51.872C38.0478 54.428 39.6078 56.156 41.9838 56.156C44.3958 56.156 45.9558 54.404 45.9558 51.848ZM43.8918 51.86C43.8918 53.504 43.1958 54.548 41.9958 54.548C40.8078 54.548 40.0998 53.504 40.0998 51.86C40.0998 50.216 40.8078 49.172 41.9958 49.172C43.1958 49.172 43.8918 50.216 43.8918 51.86ZM52.2916 56.084L54.3676 55.748L51.4876 47.684H49.2316L46.2556 56H48.2716L48.8236 54.284H51.6916L52.2916 56.084ZM50.2516 49.796L51.1756 52.676H49.3156L50.2516 49.796ZM62.5174 51.848C62.5174 49.388 61.0174 47.72 58.1374 47.72H55.2814V56H58.1854C60.9814 56 62.5174 54.308 62.5174 51.848ZM60.4534 51.86C60.4534 53.636 59.5414 54.404 58.0774 54.404H57.3334V49.316H58.0774C59.4814 49.316 60.4534 50.12 60.4534 51.86Z'],[d='M40 29C37.794 29 36 30.794 36 33C36 35.207 37.794 37 40 37C42.206 37 44 35.207 44 33C44 30.795 42.206 29 40 29Z'] {
+	color: transparent;
 }
 
 /* Server Discovery */
@@ -293,7 +304,7 @@
 	d: path('m4.397 4.554.073-.084a.75.75 0 0 1 .976-.073l.084.073L12 10.939l6.47-6.47a.75.75 0 1 1 1.06 1.061L13.061 12l6.47 6.47a.75.75 0 0 1 .072.976l-.073.084a.75.75 0 0 1-.976.073l-.084-.073L12 13.061l-6.47 6.47a.75.75 0 0 1-1.06-1.061L10.939 12l-6.47-6.47a.75.75 0 0 1-.072-.976l.073-.084-.073.084Z');
 }
 .closeButton-30b1gR {
-    background: url(https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Dismiss%20Circle/SVG/ic_fluent_dismiss_circle_24_regular.svg) no-repeat;
+    background: url(https://stickfab.github.io/pc-fluenticons/assets/24/dismiss_circle.svg) no-repeat;
 	background-position: 50% 50%;
     background-size: 24px 24px;
 	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(254deg) brightness(103%) contrast(102%);
@@ -303,64 +314,10 @@
 [d='M0 0h18v18H0'] {
 	d: path('M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z');
 }
-#guild-header-popout-invite-people::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/People Add/SVG/ic_fluent_people_add_24_regular.svg") !important;
-}
-#guild-header-popout-settings::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Settings/SVG/ic_fluent_settings_24_regular.svg") !important;
-}
-#guild-header-popout-create-channel::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Add Circle/SVG/ic_fluent_add_circle_24_regular.svg") !important;
-}
-#guild-header-popout-create-category::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Folder Add/SVG/ic_fluent_folder_add_24_regular.svg") !important;
-}
-#guild-header-popout-notifications::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Alert/SVG/ic_fluent_alert_24_regular.svg") !important;
-}
-#guild-header-popout-privacy::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Shield/SVG/ic_fluent_shield_24_regular.svg") !important;
-}
-#guild-header-popout-change-nickname::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Rename/SVG/ic_fluent_rename_24_regular.svg") !important;
-}
-#guild-header-popout-hide-muted-channels[aria-checked="false"]::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Checkbox Unchecked/SVG/ic_fluent_checkbox_unchecked_24_regular.svg") !important;
-}
-#guild-header-popout-hide-muted-channels[aria-checked="true"]::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Checkbox Checked/SVG/ic_fluent_checkbox_checked_24_filled.svg") !important;
-}
-#guild-header-popout-leave::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Arrow Circle Left/SVG/ic_fluent_arrow_circle_left_24_regular.svg") !important;
-}
 
 /* Arrow */
 [d='M16.59 8.59004L12 13.17L7.41 8.59004L6 10L12 16L18 10L16.59 8.59004Z'] {
 	d: path('M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z');
-}
-#message-add-reaction::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Emoji%20Add/SVG/ic_fluent_emoji_add_24_regular.svg") !important;
-}
-#message-edit::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Edit/SVG/ic_fluent_edit_24_regular.svg") !important;
-}
-#message-pin::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Pin/SVG/ic_fluent_pin_24_regular.svg") !important;
-}
-#message-reply::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Arrow Reply/SVG/ic_fluent_arrow_reply_24_regular.svg") !important;
-}
-#message-apps::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/apps/v12/24px.svg") !important;
-}
-#message-mark-unread::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Mail Unread/SVG/ic_fluent_mail_unread_24_regular.svg") !important;
-}
-#message-copy-link::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Link/SVG/ic_fluent_link_24_regular.svg") !important;
-}
-#message-delete::before {
-	--icon: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Delete/SVG/ic_fluent_delete_24_regular.svg") !important;
 }
 
 /* Reaction */
@@ -479,59 +436,6 @@
 }
 [d='M3.76 4.21526L3 3.45526L2 4.45526V5.97526L3.76 4.21526Z'],[d='M2.28003 7.11532L3.00003 7.83532L4.00003 6.83532V5.39532L2.28003 7.11532Z']{
 	color: transparent;
-}
-
-#user-context-user-profile::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/person/v17/24px.svg") !important;
-}
-#user-context-mention::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/alternate_email/v13/24px.svg") !important;
-}
-#user-context-change-nickname::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/edit/v12/24px.svg") !important;
-}
-#user-context-apps::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/apps/v12/24px.svg") !important;
-}
-
-/* Moooore */
-#guild-context-mark-guild-read::before, #channel-context-mark-channel-read::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/check/v18/24px.svg") !important;
-}
-#guild-context-invite-people::before, #channel-context-invite-people::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/group_add/v18/24px.svg") !important;
-}
-#guild-context-mute-guild::before, #guild-context-hide-muted-channels[aria-checked="false"]::before, #channel-context-mute-channel::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/check_box_outline_blank/v16/24px.svg") !important;
-}
-#guild-context-unmute-guild::before, #guild-context-hide-muted-channels[aria-checked="true"]::before, #channel-context-unmute-channel::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/check_box/v16/24px.svg") !important;
-}
-#guild-context-guild-notifications::before, #channel-context-channel-notifications {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/notifications_active/v13/24px.svg") !important;
-}
-#guild-context-guild-settings::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/settings/v19/24px.svg") !important;
-}
-#guild-context-privacy::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/security/v12/24px.svg") !important;
-}
-#guild-context-change-nickname::before, #channel-context-edit-channel::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/edit/v12/24px.svg") !important;
-}
-#guild-context-create-channel::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/add/v21/24px.svg") !important;
-}
-#guild-context-create-category::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/create_new_folder/v11/24px.svg") !important;
-}
-#guild-context-leave-guild::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialiconsoutlined/logout/v12/24px.svg") !important;
-}
-
-/* Moo */
-#channel-context-delete-channel::before {
-	--icon: url("https://fonts.gstatic.com/s/i/materialicons/delete/v17/24px.svg") !important;
 }
 
 /* Mark As Read */
@@ -737,11 +641,11 @@
 }
 .emptyChannelIcon-1YdEz2 {
     background-color: #fff;
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Number Symbol/SVG/ic_fluent_number_symbol_48_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/48/number_symbol.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 }
 .emptyChannelIcon-1YdEz2.locked-29sj8C {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Number Symbol/SVG/ic_fluent_number_symbol_48_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/48/number_symbol.svg);
 }
 
 /* Locked channels */
@@ -790,6 +694,12 @@
 }
 [d='M3.9 8.26H2V15.2941H3.9V8.26Z']{
 	color: transparent;
+}
+
+/* Forum Channel (Experiment) */
+[d='M6.56929 14.6869H2.34375C1.97079 14.6869 1.61311 14.5387 1.34938 14.275C1.08566 14.0113 0.9375 13.6536 0.9375 13.2806V8.12437C0.9375 6.38389 1.6289 4.7147 2.85961 3.484C4.09032 2.25329 5.75951 1.56189 7.49999 1.56189C9.24047 1.56189 10.9097 2.25329 12.1404 3.484C12.6953 4.03895 13.1406 4.68307 13.4623 5.38267C14.9101 5.5973 16.2513 6.29124 17.2655 7.36251C18.4194 8.58133 19.0625 10.1959 19.0625 11.8744V17.0306C19.0625 17.4036 18.9144 17.7613 18.6506 18.025C18.3869 18.2887 18.0292 18.4369 17.6563 18.4369H12.5C11.1428 18.4369 9.81899 18.0162 8.71072 17.2328C7.7871 16.58 7.05103 15.7019 6.56929 14.6869ZM4.18544 4.80982C5.06451 3.93075 6.25679 3.43689 7.49999 3.43689C8.74319 3.43689 9.93549 3.93075 10.8146 4.80983C11.6936 5.6889 12.1875 6.88119 12.1875 8.12439C12.1875 9.36759 11.6936 10.5599 10.8146 11.439C9.93549 12.318 8.74321 12.8119 7.50001 12.8119H7.20268C7.19767 12.8118 7.19266 12.8118 7.18764 12.8119H2.8125V8.12438C2.8125 6.88118 3.30636 5.6889 4.18544 4.80982ZM8.672 14.5814C8.97763 15.0132 9.35591 15.3928 9.79299 15.7017C10.5847 16.2614 11.5305 16.5619 12.5 16.5619H17.1875V11.8744C17.1875 10.6755 16.7281 9.52219 15.9039 8.65159C15.3804 8.09865 14.735 7.68644 14.027 7.44246C14.0506 7.66798 14.0625 7.89557 14.0625 8.12439C14.0625 9.86487 13.3711 11.5341 12.1404 12.7648C11.1896 13.7156 9.97697 14.3445 8.672 14.5814Z'] {
+	d: path('M3.05001 3C3.28164 1.85888 4.29052 1 5.5 1H12C13.6569 1 15 2.34315 15 4V8.5C15 9.70948 14.1411 10.7184 13 10.95V11C13 12.1046 12.1046 13 11 13H7.16024L4.58124 14.8421C3.91937 15.3149 3 14.8418 3 14.0284L3 13C1.89543 13 1 12.1046 1 11V5C1 3.89543 1.89543 3 3 3H3.05001ZM4.08535 3H11C12.1046 3 13 3.89543 13 5V9.91465C13.5826 9.70873 14 9.15311 14 8.5V4C14 2.89543 13.1046 2 12 2H5.5C4.84689 2 4.29127 2.4174 4.08535 3ZM12 11V5C12 4.44772 11.5523 4 11 4H3C2.44772 4 2 4.44772 2 5V11C2 11.5523 2.44772 12 3 12H4V14.0284L6.83978 12H11C11.5523 12 12 11.5523 12 11Z');
+	transform: scale(130%);
 }
 
 /* Voice Channel */
@@ -894,7 +804,7 @@
 	d: path('M13.75 4.5A3.25 3.25 0 0 1 17 7.75v.173l3.864-2.318A.75.75 0 0 1 22 6.248V17.75a.75.75 0 0 1-1.136.643L17 16.075v.175a3.25 3.25 0 0 1-3.25 3.25h-8.5A3.25 3.25 0 0 1 2 16.25v-8.5A3.25 3.25 0 0 1 5.25 4.5h8.5Zm0 1.5h-8.5A1.75 1.75 0 0 0 3.5 7.75v8.5c0 .966.784 1.75 1.75 1.75h8.5a1.75 1.75 0 0 0 1.75-1.75v-8.5A1.75 1.75 0 0 0 13.75 6Zm6.75 1.573L17 9.674v4.651l3.5 2.1V7.573Z');
 }
 .theme-dark .previewImage-2SFTiM {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Video/SVG/ic_fluent_video_48_regular.svg");
+    background-image: url("https://stickfab.github.io/pc-fluenticons/assets/48/video.svg");
 	background-size: 75%;
 	margin-left: 45px;
 	margin-bottom: 45px;
@@ -944,9 +854,6 @@
 }
 [d='M19 1C19.552 1 20 1.447 20 2V3L23 2V6L20 5V6C20 6.553 19.552 7 19 7H15C14.448 7 14 6.553 14 6V2C14 1.447 14.448 1 15 1H19Z']{
 	color: transparent;
-}
-.icon-2Ug6UV{
-	
 }
 
 /* Stop Stream */
@@ -1028,7 +935,7 @@
 }
 
 /* Grid */
-/* .controlIcon-10O-4h>rect{
+/* [class="controlIcon-10O-4h"]{
 	clip-path: path("M2 4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H4Z");
 	stroke: currentColor;
     stroke-width: 200%;
@@ -1090,8 +997,8 @@
 
 /* Rich Presence */
 [d='M6,7 L2,7 L2,6 L6,6 L6,7 Z M8,5 L2,5 L2,4 L8,4 L8,5 Z M8,3 L2,3 L2,2 L8,2 L8,3 Z M8.88888889,0 L1.11111111,0 C0.494444444,0 0,0.494444444 0,1.11111111 L0,8.88888889 C0,9.50253861 0.497461389,10 1.11111111,10 L8.88888889,10 C9.50253861,10 10,9.50253861 10,8.88888889 L10,1.11111111 C10,0.494444444 9.5,0 8.88888889,0 Z'] {
-	d: path('M5.5 5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5Zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3Zm0 2a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5Zm-1-7A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14h7a2.5 2.5 0 0 0 2.5-2.5v-7A2.5 2.5 0 0 0 11.5 2h-7ZM3 4.5A1.5 1.5 0 0 1 4.5 3h7A1.5 1.5 0 0 1 13 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5v-7Z');
-	transform: translate(0%,0%);
+	d: path('M21 17.75A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3h11.5A3.25 3.25 0 0 1 21 6.25v11.5Zm-1.5 0V6.25a1.75 1.75 0 0 0-1.75-1.75H6.25A1.75 1.75 0 0 0 4.5 6.25v11.5c0 .966.784 1.75 1.75 1.75h11.5a1.75 1.75 0 0 0 1.75-1.75Zm-2.5-10a.75.75 0 0 1-.648.743l-.102.007h-8.5a.75.75 0 0 1-.102-1.493L7.75 7h8.5a.75.75 0 0 1 .75.75Zm0 8.5a.75.75 0 0 1-.648.743L16.25 17h-8.5a.75.75 0 0 1-.102-1.493l.102-.007h8.5a.75.75 0 0 1 .75.75ZM17 12a.75.75 0 0 1-.648.743l-.102.007h-8.5a.75.75 0 0 1-.102-1.493l.102-.007h8.5A.75.75 0 0 1 17 12Z');
+	transform: translate(0%,0%) scale(70%);
 }
 
 /* Image */
@@ -1153,7 +1060,9 @@
 }
 .theme-dark .imageUploaderIcon-2OHmFu {
     background-color: #DEDEDE;
-    background-image: url(https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Image%20Add/SVG/ic_fluent_image_add_24_regular.svg);
+    background-image: url("https://stickfab.github.io/pc-fluenticons/assets/24/image_add.svg");
+	background-size: 75%;
+	background-position: 45%;
 }
 
 /* AutoMod (Experiment) */
@@ -1178,8 +1087,41 @@
 	transform: scale(110%);
 }
 
+/* Channels Followed */
+[d='M20 1.707V4.293L16.707 1L15.293 2.414L18.586 5.707H16V7.707H22V1.707H20ZM5 14.707H8V8.70697C8 7.60497 8.897 6.70697 10 6.70697H14V3.70697C14 2.60497 13.103 1.70697 12 1.70697H5C3.897 1.70697 3 2.60497 3 3.70697V12.707C3 13.809 3.897 14.707 5 14.707ZM12 8.70697H19C20.103 8.70697 21 9.60497 21 10.707V19.707C21 20.81 20.103 21.707 19 21.707H12C10.897 21.707 10 20.81 10 19.707V10.707C10 9.60497 10.897 8.70697 12 8.70697ZM16 12.707V11.707H12V12.707H16ZM12 18.707H19V17.707H12V18.707ZM12 15.707H19V14.707H12V15.707Z'] {
+	d: path('M21.907 5.622c.062.208.093.424.093.641V17.74a2.25 2.25 0 0 1-2.891 2.156l-5.514-1.64a4.002 4.002 0 0 1-7.59-1.556L6 16.5l-.001-.5-2.39-.711A2.25 2.25 0 0 1 2 13.131V10.87a2.25 2.25 0 0 1 1.61-2.156l15.5-4.606a2.25 2.25 0 0 1 2.797 1.515ZM7.499 16.445l.001.054a2.5 2.5 0 0 0 4.624 1.321l-4.625-1.375Zm12.037-10.9-15.5 4.605a.75.75 0 0 0-.536.72v2.261a.75.75 0 0 0 .536.72l15.5 4.607a.75.75 0 0 0 .964-.72V6.264a.75.75 0 0 0-.964-.719Z')
+}
+
+/* Bot */
 [d='M12 2C14.761 2 17 4.238 17 7V9H7V7C7 4.238 9.238 2 12 2ZM10.5 5.5C10.5 6.329 11.172 7 12 7C12.828 7 13.5 6.329 13.5 5.5C13.5 4.671 12.828 4 12 4C11.172 4 10.5 4.671 10.5 5.5ZM23 22H17L19 19V12H17V18C17 18.553 16.552 19 16 19H14L15 22H9L10 19H8C7.448 19 7 18.553 7 18V12H5V19L7 22H1L3 19V12C3 10.896 3.897 10 5 10H19C20.103 10 21 10.896 21 12V19L23 22ZM13 14C13 14.553 13.448 15 14 15C14.552 15 15 14.553 15 14C15 13.447 14.552 13 14 13C13.448 13 13 13.447 13 14Z'] {
 	d: path("M17.753 14a2.25 2.25 0 0 1 2.25 2.25v.904A3.75 3.75 0 0 1 18.696 20c-1.565 1.344-3.806 2-6.696 2-2.89 0-5.128-.656-6.69-2a3.75 3.75 0 0 1-1.306-2.843v-.908A2.25 2.25 0 0 1 6.254 14h11.5Zm0 1.5h-11.5a.75.75 0 0 0-.75.75v.907c0 .655.287 1.278.784 1.706C7.545 19.945 9.441 20.5 12 20.5c2.56 0 4.458-.557 5.72-1.64a2.25 2.25 0 0 0 .783-1.707v-.905a.75.75 0 0 0-.75-.75ZM11.9 2.006 12 2a.75.75 0 0 1 .743.648l.007.102-.001.749h3.5a2.25 2.25 0 0 1 2.25 2.25v4.505a2.25 2.25 0 0 1-2.25 2.25h-8.5a2.25 2.25 0 0 1-2.25-2.25V5.75A2.25 2.25 0 0 1 7.75 3.5l3.5-.001V2.75a.75.75 0 0 1 .649-.743L12 2l-.102.007ZM16.25 5h-8.5a.75.75 0 0 0-.75.75v4.504c0 .414.336.75.75.75h8.5a.75.75 0 0 0 .75-.75V5.75a.75.75 0 0 0-.75-.75Zm-6.5 1.5a1.25 1.25 0 1 1 0 2.498 1.25 1.25 0 0 1 0-2.498Zm4.492 0a1.25 1.25 0 1 1 0 2.498 1.25 1.25 0 0 1 0-2.498Z");
+}
+
+/* Partner */
+/* Unique Branding */
+[d='M6.81394 8.982C4.53894 11.674 4.65594 15.591 6.93094 18.153L4.03394 21.579L5.56094 22.87L8.46294 19.437C9.56894 20.127 10.8459 20.513 12.1609 20.513C14.2309 20.513 16.1829 19.607 17.5159 18.027C20.0689 15.01 20.7709 6.945 20.9999 3C17.7649 3.876 9.03194 6.356 6.81394 8.982ZM8.93494 17.331C6.82594 15.548 6.55994 12.382 8.34194 10.272C9.59194 8.793 14.9039 6.845 18.7639 5.698L8.93494 17.331Z'] {
+	d: path('M13.238 3.272a1.75 1.75 0 0 0-2.475 0L7.05 6.984a6.999 6.999 0 0 0 4.2 11.906v2.359a.75.75 0 0 0 1.5 0V18.89a6.999 6.999 0 0 0 4.199-11.907l-3.712-3.712ZM12.75 17.38v-5.63a.75.75 0 0 0-1.5 0v5.63a5.499 5.499 0 0 1-3.138-9.336l3.711-3.711a.25.25 0 0 1 .354 0l3.711 3.711a5.499 5.499 0 0 1-3.138 9.336Z')
+}
+/* TODO: Partner Icon */
+
+/* Member Screening */
+[d='M12.527 12.8489C12.366 12.9489 12.183 12.9999 12 12.9999C11.817 12.9999 11.634 12.9489 11.473 12.8499L2.003 6.97292C2.003 6.98192 2 6.99092 2 6.99892V15.9989C2 17.1009 2.897 17.9989 4 17.9989H20C21.103 17.9989 22 17.1009 22 15.9989V6.99892C22 6.98992 21.997 6.98092 21.997 6.97192L12.527 12.8489Z'] {
+	d: path('M5.25 4h13.5a3.25 3.25 0 0 1 3.245 3.066L22 7.25v9.5a3.25 3.25 0 0 1-3.066 3.245L18.75 20H5.25a3.25 3.25 0 0 1-3.245-3.066L2 16.75v-9.5a3.25 3.25 0 0 1 3.066-3.245L5.25 4h13.5-13.5ZM20.5 9.373l-8.15 4.29a.75.75 0 0 1-.603.043l-.096-.042L3.5 9.374v7.376a1.75 1.75 0 0 0 1.606 1.744l.144.006h13.5a1.75 1.75 0 0 0 1.744-1.607l.006-.143V9.373ZM18.75 5.5H5.25a1.75 1.75 0 0 0-1.744 1.606L3.5 7.25v.429l8.5 4.473 8.5-4.474V7.25a1.75 1.75 0 0 0-1.607-1.744L18.75 5.5Z')
+}
+[d='M12.0002 10.823L20.9652 5.26C20.6772 5.1 20.3522 5 20.0002 5H4.00016C3.64816 5 3.32216 5.1 3.03516 5.26L12.0002 10.823Z'] {
+	color: transparent;
+}
+/* Multiple Choice */
+[d='M1.25 0.5H4.25C4.66475 0.5 5 0.836 5 1.25V4.25C5 4.664 4.66475 5 4.25 5H1.25C0.836 5 0.5 4.664 0.5 4.25V1.25C0.5 0.836 0.836 0.5 1.25 0.5ZM1.25 5.75H4.25C4.66475 5.75 5 6.086 5 6.5V9.5C5 9.914 4.66475 10.25 4.25 10.25H1.25C0.836 10.25 0.5 9.914 0.5 9.5V6.5C0.5 6.086 0.836 5.75 1.25 5.75ZM4.25 11H1.25C0.836 11 0.5 11.336 0.5 11.75V14.75C0.5 15.164 0.836 15.5 1.25 15.5H4.25C4.66475 15.5 5 15.164 5 14.75V11.75C5 11.336 4.66475 11 4.25 11ZM6.5 2H15.5V3.5H6.5V2ZM15.5 7.25H6.5V8.75H15.5V7.25ZM6.5 12.5H15.5V14H6.5V12.5Z'] {
+	d: path('M2 4.5C2.55228 4.5 3 4.05228 3 3.5C3 2.94772 2.55228 2.5 2 2.5C1.44772 2.5 1 2.94772 1 3.5C1 4.05228 1.44772 4.5 2 4.5ZM2 9C2.55228 9 3 8.55228 3 8C3 7.44772 2.55228 7 2 7C1.44772 7 1 7.44772 1 8C1 8.55228 1.44772 9 2 9ZM3 12.5C3 13.0523 2.55228 13.5 2 13.5C1.44772 13.5 1 13.0523 1 12.5C1 11.9477 1.44772 11.5 2 11.5C2.55228 11.5 3 11.9477 3 12.5ZM5.5 3C5.22386 3 5 3.22386 5 3.5C5 3.77614 5.22386 4 5.5 4H14.5C14.7761 4 15 3.77614 15 3.5C15 3.22386 14.7761 3 14.5 3H5.5ZM5 8C5 7.72386 5.22386 7.5 5.5 7.5H14.5C14.7761 7.5 15 7.72386 15 8C15 8.27614 14.7761 8.5 14.5 8.5H5.5C5.22386 8.5 5 8.27614 5 8ZM5.5 12C5.22386 12 5 12.2239 5 12.5C5 12.7761 5.22386 13 5.5 13H14.5C14.7761 13 15 12.7761 15 12.5C15 12.2239 14.7761 12 14.5 12H5.5Z');
+}
+
+/* Premium Membership (Experiment) */
+[d='M16 4.00098C14.406 4.00098 12.93 4.83798 12 6.08098C11.07 4.83798 9.594 4.00098 8 4.00098C5.243 4.00098 3 6.24398 3 9.00098C3 14.492 11.124 19.633 11.471 19.849C11.633 19.95 11.817 20.001 12 20.001C12.183 20.001 12.367 19.95 12.529 19.849C12.876 19.633 21 14.492 21 9.00098C21 6.24398 18.757 4.00098 16 4.00098Z'] {
+	d: path('m12.82 5.58-.82.822-.824-.824a5.375 5.375 0 1 0-7.601 7.602l7.895 7.895a.75.75 0 0 0 1.06 0l7.902-7.897a5.376 5.376 0 0 0-.001-7.599 5.38 5.38 0 0 0-7.611 0Zm6.548 6.54L12 19.485 4.635 12.12a3.875 3.875 0 1 1 5.48-5.48l1.358 1.357a.75.75 0 0 0 1.073-.012L13.88 6.64a3.88 3.88 0 0 1 5.487 5.48Z')
+}
+[d='M23 10V4H1V10C2.1 10 3 10.9 3 12C3 13.1 2.1 14 1 14V20H23V14C21.9 14 21 13.1 21 12C21 10.9 21.9 10 23 10ZM13 16V18H11V16H9V14H13C13.27 14 13.5 13.83 13.5 13.62C13.5 12.58 8.5 13.62 8.5 10.37C8.5 9.07 9.62 8 11 8V6H13V8H15V10H11C10.73 10 10.5 10.17 10.5 10.38C10.5 11.42 15.5 10.38 15.5 13.63C15.5 14.93 14.38 16 13 16Z'] {
+	d: path('M10.5 8a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM9 11a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM2 7.25A2.25 2.25 0 0 1 4.25 5h12.5A2.25 2.25 0 0 1 19 7.25v7.5A2.25 2.25 0 0 1 16.75 17H4.25A2.25 2.25 0 0 1 2 14.75v-7.5Zm2.25-.75a.75.75 0 0 0-.75.75V8h.75A.75.75 0 0 0 5 7.25V6.5h-.75Zm-.75 6h.75a2.25 2.25 0 0 1 2.25 2.25v.75h8v-.75a2.25 2.25 0 0 1 2.25-2.25h.75v-3h-.75a2.25 2.25 0 0 1-2.25-2.25V6.5h-8v.75A2.25 2.25 0 0 1 4.25 9.5H3.5v3Zm14-4.5v-.75a.75.75 0 0 0-.75-.75H16v.75c0 .414.336.75.75.75h.75Zm0 6h-.75a.75.75 0 0 0-.75.75v.75h.75a.75.75 0 0 0 .75-.75V14Zm-14 .75c0 .414.336.75.75.75H5v-.75a.75.75 0 0 0-.75-.75H3.5v.75Zm.901 3.75A2.999 2.999 0 0 0 7 20h10.25A4.75 4.75 0 0 0 22 15.25V10a3 3 0 0 0-1.5-2.599v7.849a3.25 3.25 0 0 1-3.25 3.25H4.401Z')
 }
 
 /* Video Player */
@@ -1224,12 +1166,12 @@
 }
 /* Default */
 .icon-2bPCaV.unknown-1HSceW {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Document/SVG/ic_fluent_document_48_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/48/document.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(200%);
 }
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.unknown-3ClW7Z {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Document/SVG/ic_fluent_document_48_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/48/document.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(150%);
@@ -1238,88 +1180,88 @@
 .audioMetadata-1Hrt8T:before {
     width: 37px;
     height: 44px;
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Speaker 2/SVG/ic_fluent_speaker_2_32_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/32/speaker_2.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 }
 .icon-2bPCaV.audio-bZBBRF {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Speaker 2/SVG/ic_fluent_speaker_2_48_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/48/speaker_2.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(200%);
 }
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.audio-YC1s9s {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Speaker 2/SVG/ic_fluent_speaker_2_48_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/48/speaker_2.svg);
     margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(150%);
 }
 /* MP4 Icon */
 .icon-2bPCaV.video-qa3DnY {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Video Clip/SVG/ic_fluent_video_clip_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/video_clip.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.video-L7uQxc {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Video Clip/SVG/ic_fluent_video_clip_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/video_clip.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
 }
 /* Text File */
 .icon-2bPCaV.document-3AUmU1 {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Document Text/SVG/ic_fluent_document_text_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/document_text.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.document-1u6V3N {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Document Text/SVG/ic_fluent_document_text_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/document_text.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
 }
 /* ZIP Icon */
 .icon-2bPCaV.archive-1zydwk {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Folder Zip/SVG/ic_fluent_folder_zip_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/folder_zip.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.archive-2bNoJA {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Folder Zip/SVG/ic_fluent_folder_zip_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/folder_zip.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
 }
 /* HTML Icon */
 .icon-2bPCaV.webcode-3EYK4X {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Code/SVG/ic_fluent_code_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/code.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.webcode-18ObW7 {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Code/SVG/ic_fluent_code_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/code.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
 }
 /* Code Icon */
 .icon-2bPCaV.code-1hTP09 {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Braces/SVG/ic_fluent_braces_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/braces.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.code-rRQnfi {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Braces/SVG/ic_fluent_braces_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/braces.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
 }
 /* PDF Icon */
 .icon-2bPCaV.acrobat-3i7zSC {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Document PDF/SVG/ic_fluent_document_pdf_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/document_pdf.svg);
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(480%);
 }
 .uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .icon-HW4tZ-.acrobat-2-m_um {
-    background-image: url("https://raw.githubusercontent.com/microsoft/fluentui-system-icons/2b653e94544fb2e156913454b6e99be45d99f29f/assets/Document PDF/SVG/ic_fluent_document_pdf_20_regular.svg");
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/20/document_pdf.svg);
 	margin: -20px 0px;
 	filter: invert(86%) sepia(3%) saturate(267%) hue-rotate(177deg) brightness(89%) contrast(84%);
 	transform: scale(380%);
