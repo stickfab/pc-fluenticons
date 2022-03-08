@@ -21,6 +21,7 @@ Open your themes folder with your terminal of choice and paste the following:
 To install this, add the following code to your Quick CSS:
 
     @import url("https://stickfab.github.io/pc-fluenticons/fluenticons-settings.css");
+
 ### Credits
 All of the icons are taken from https://github.com/microsoft/fluentui-system-icons
 
