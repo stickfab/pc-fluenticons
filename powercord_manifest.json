@@ -1,7 +1,7 @@
 {
     "name": "Fluent Icons",
     "description": "An icon pack for Powercord that replaces most icons with Microsoft's Fluent Design Icons.",
-    "version": "1.7.2",
+    "version": "1.8.0",
     "author": "stickfab#0985",
     "theme": "FluentIcons.css",
     "consent": [ "ext_listing" ],

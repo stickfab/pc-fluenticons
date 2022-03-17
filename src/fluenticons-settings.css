@@ -1,0 +1,271 @@
+:root {
+	--usesettingsicons: calc(var(--settingsicons, 1) / (var(--settingsicons, 1) + 0.00000000000000000000001));
+	--settingsiconssize: 20px;
+	--settingsiconsgap: 10px;
+}
+
+body #app-mount .sidebarRegion-1VBisG {
+	flex-basis: calc(218px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;
+}
+body #app-mount .sidebar-nqHbhN,
+body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
+	width: calc(218px + (var(--usesettingsicons) * (var(--settingsiconssize) + var(--settingsiconsgap)))) !important;
+}
+#bd-settings-sidebar .ui-tab-bar-item,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG {
+	display: flex;
+	align-items: center;
+}
+#bd-settings-sidebar .ui-tab-bar-item::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG::before {
+	content: "";
+	position: relative;
+	flex: 0 0 auto;
+	width: calc(var(--usesettingsicons) * var(--settingsiconssize));
+	height: calc(var(--usesettingsicons) * var(--settingsiconssize));
+	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
+	background: currentColor;
+	z-index: 2;
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/question_circle.svg) center/contain no-repeat;
+}
+
+/* USER */
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My Account-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My-Account-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/person.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Profile Customization-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Profile-Customization-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/edit.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy & Safety-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Privacy-&-Safety-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MODERATION-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/shield_lock.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized Apps-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Authorized-Apps-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="WIDGET-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/apps.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Connections-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/phone_desktop.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Subscriptions-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/star.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Premium-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/premium.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord-Nitro-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/nitro.svg) center/contain no-repeat; /* TODO */
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro-Server-Boost-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="GUILD_PREMIUM-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/boost.svg) center/contain no-repeat; /* TODO */
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library Inventory-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Library-Inventory-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/gift.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Billing-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/receipt.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Appearance-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/paint_bucket.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Accessibility-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/accessibility.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice & Video-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Voice-&-Video-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/mic.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Text & Images-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Text-&-Images-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/image.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Notifications-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/alert.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Keybinds-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/keyboard.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Language-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/local_language.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Windows-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/window.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Streamer Mode-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Streamer Mode-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Streamer-Mode-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/live.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Advanced-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/wrench.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game Activity-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game-Activity-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/games.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Overlay-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/picture_in_picture.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ChangeLog-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change Log-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change-Log-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/clock.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hypesquad Online-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hypesquad-Online-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/hypesquad.svg) center/contain no-repeat; /* TODO */
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Experiments-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/beaker.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Developer Options-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Developer-Options-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/code.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hotspot Options-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hotspot-Options-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/communication.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Dismissible Content Options-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Dismissible-Content-Options-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/dismiss_circle.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="payment-flow-modals-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="payment-flow-modals-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/payment.svg) center/contain no-repeat;
+}
+#bd-settings-sidebar .ui-tab-bar-item:nth-child(3)::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-settings-tab::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-general-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="lightcord-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="core-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Settings-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/settings.svg) center/contain no-repeat;
+}
+#bd-settings-sidebar .ui-tab-bar-item:nth-child(4)::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-emotes-tab::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Emotes-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="EMOJI-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/emoji.svg) center/contain no-repeat;
+}
+#bd-settings-sidebar .ui-tab-bar-item:nth-child(7)::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-customcss-tab::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="CustomCSS-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/code.svg) center/contain no-repeat;
+}
+#bd-settings-sidebar .ui-tab-bar-item:nth-child(5)::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-plugins-tab::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Plugins-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-moduleManager-plugins-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/puzzle_piece.svg) center/contain no-repeat;
+}
+#bd-settings-sidebar .ui-tab-bar-item:nth-child(6)::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG.bd-themes-tab::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-moduleManager-themes-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Themes-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="theme-toggler-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/paint_brush.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="PluginRepo-tab" i]::before {
+	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/pluginrepo.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ThemeRepo-tab" i]::before {
+	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/themerepo.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="pc-updater-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/arrow_download.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="bdCompat-tab" i]::before {
+	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/betterdiscord.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Logout-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/sign_out.svg) center/contain no-repeat;
+}
+
+/* SERVER */
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="OVERVIEW-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="accountinfo-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/info.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ROLES-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="PERMISSIONS-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/flag.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="STICKERS-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/sticker.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="AUDIT_LOG-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/clipboard_text_ltr.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="INTEGRATIONS-tab" i]::before,
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="status-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/bot.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="GUILD_TEMPLATES-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/textbox.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="vanity_url-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/link.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="COMMUNITY-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/people_community.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ANALYTICS-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/data_trending.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="PARTNER-tab" i]::before {
+	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/partner.svg) center/contain no-repeat; /* TODO */
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MEMBER_VERIFICATION-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/book.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="DISCOVERY-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/compass_northwest.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="COMMUNITY_WELCOME-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/megaphone.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="THREADS-tab" i]::before {
+	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/threads.svg) center/contain no-repeat; /* TODO */
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="role_subscriptions-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/premium.svg) center/contain no-repeat; /* TODO */
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="MEMBERS-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/people.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="INSTANT_INVITES-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/person_add.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="BANS-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/person_prohibited.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="app_directory-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/apps_add_in.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="DELETE-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/delete.svg) center/contain no-repeat;
+}
+.bd-server-search ~ .item-3XjbnG::before {
+	display: none;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .icon-3FU6Ir,
+.sidebar-nqHbhN .side-2ur1Qk .premiumLabel-3HPvdB svg {
+	transform: scaleX(calc(1 - var(--usesettingsicons)));
+}
+
+#BDFDB-card svg path[d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5C13 2.12 11.88 1 10.5 1S8 2.12 8 3.5V5H4c-1.1 0-1.99.9-1.99 2v3.8H3.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7 1.49 0 2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5S21.88 11 20.5 11z"],
+#ZeresPluginLibrary-card svg path[d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5C13 2.12 11.88 1 10.5 1S8 2.12 8 3.5V5H4c-1.1 0-1.99.9-1.99 2v3.8H3.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7 1.49 0 2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5c1.38 0 2.5-1.12 2.5-2.5S21.88 11 20.5 11z"] {
+	d: path("m 6.375,0.75 c -0.3886406,0 -0.703125,0.3144844 -0.703125,0.703125 v 14.0625 c 0,0.388641 0.3144844,0.703125 0.703125,0.703125 3.252375,0 4.608656,1.798453 4.921875,2.296875 V 2.3886719 C 10.323656,1.5753438 8.760938,0.75 6.375,0.75 Z M 3.5625,2.15625 c -0.3886406,0 -0.703125,0.3144844 -0.703125,0.703125 v 15.46875 c 0,0.388641 0.3144844,0.703125 0.703125,0.703125 H 9.929688 C 9.535891,18.553922 8.503875,17.625 6.375,17.625 5.2118437,17.625 4.265625,16.678781 4.265625,15.515625 V 2.15625 Z m 11.25,0 c -0.794437,0 -1.519969,0.2745469 -2.109375,0.7207031 V 19.734375 c 0,-0.387938 0.315188,-0.703125 0.703125,-0.703125 h 7.03125 c 0.388641,0 0.703125,-0.314484 0.703125,-0.703125 V 2.859375 c 0,-0.3886406 -0.314484,-0.703125 -0.703125,-0.703125 z M 0.703125,3.5625 C 0.3144844,3.5625 0,3.8769844 0,4.265625 v 16.875 c 0,0.388641 0.3144844,0.703125 0.703125,0.703125 H 8.605469 C 8.895906,22.662234 9.677063,23.25 10.59375,23.25 h 2.8125 c 0.916687,0 1.697797,-0.587766 1.988281,-1.40625 h 7.902344 C 23.685516,21.84375 24,21.529266 24,21.140625 v -16.875 C 24,3.8769844 23.685516,3.5625 23.296875,3.5625 H 22.59375 v 14.765625 c 0,1.163156 -0.993094,2.109375 -2.15625,2.109375 H 13.988281 C 13.697844,21.255984 12.916688,21.84375 12,21.84375 c -0.916687,0 -1.697797,-0.587766 -1.988281,-1.40625 H 3.5625 c -1.1631562,0 -2.15625,-0.946219 -2.15625,-2.109375 V 3.5625 Z");
+}
+svg path[d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"] {
+	d: path("m 14.695239,1.9999995 c -0.172564,0 -0.345192,0.065287 -0.476856,0.1969323 L 8.8655558,7.5499113 16.449678,15.134249 21.802505,9.7812686 c 0.263327,-0.26329 0.263327,-0.690404 0,-0.953738 L 20.790203,7.8168279 C 20.561354,7.5879722 20.201783,7.553571 19.934142,7.7354508 l -2.127134,1.4452558 1.437076,-2.1418429 c 0.179492,-0.2675152 0.144859,-0.6250542 -0.083,-0.852831 L 16.965593,3.9921086 C 16.762949,3.7894605 16.453901,3.7358929 16.195788,3.8602778 l -0.379206,0.183912 0.18228,-0.4036299 C 16.114073,3.3850021 16.058716,3.0852515 15.860524,2.8870088 L 15.172095,2.1969318 C 15.040454,2.065287 14.867803,1.9999995 14.695239,1.9999995 Z M 7.8695296,8.5459656 6.3201554,10.095384 c -0.1264491,0.126453 -0.1969268,0.298047 -0.1969268,0.47687 0,0.178823 0.070432,0.350462 0.1969268,0.476869 l 1.4696269,1.46967 c 0.2831508,0.283158 0.4212717,0.6744 0.3775785,1.072548 -0.043647,0.397879 -0.264001,0.749537 -0.6021726,0.965131 -4.3184211,2.752831 -4.7209389,3.155335 -4.8531868,3.287631 -0.9493352,0.949318 -0.9493352,2.494468 0,3.443875 0.9502792,0.950307 2.4954758,0.948419 3.443777,0 0.1323379,-0.132296 0.5349645,-0.535005 3.2875377,-4.853324 0.215049,-0.337372 0.5670569,-0.556823 0.9651039,-0.600563 0.399307,-0.04356 0.790042,0.09352 1.072518,0.375962 l 1.469627,1.469669 c 0.263283,0.26329 0.690429,0.26329 0.953712,0 l 1.549374,-1.549419 z M 4.4762048,18.571614 c 0.2439024,0 0.4877049,0.0922 0.6737825,0.278309 0.3722002,0.372165 0.3722002,0.975393 0,1.347604 -0.3722002,0.372211 -0.9754096,0.372211 -1.347565,0 -0.3722,-0.372211 -0.3722,-0.975439 0,-1.347604 0.1861001,-0.186105 0.4298801,-0.278309 0.6737825,-0.278309 z");
+}
