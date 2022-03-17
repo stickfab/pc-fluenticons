@@ -1,3 +1,5 @@
+@import url("https://crearts-community.github.io/Context-Icons/theme.css");
+
 /* Slider */
 #rtc-channel-input .sliderContainer-2nidiS::before,#audio-device-context-input .sliderContainer-2nidiS::before {
     --icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/mic.svg') !important;
