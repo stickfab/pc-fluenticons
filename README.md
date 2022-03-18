@@ -25,6 +25,9 @@ Go to **Settings > Themes > Quick CSS** and add the following code:
 
 
 ### Credits
+* Settings Icons: https://github.com/snappercord/Settings-Icons
+* Context Icons: https://github.com/CreArts-Community/Context-Icons
+
 All of the icons are taken from https://github.com/microsoft/fluentui-system-icons
 
 Thanks to [DavidNyan10](https://github.com/DavidNyan10) for the base of the theme.
