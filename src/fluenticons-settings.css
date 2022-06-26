@@ -117,7 +117,7 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ChangeLog-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change Log-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Change-Log-tab" i]::before {
-	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/clock.svg) center/contain no-repeat;
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/text_bullet_list_square_clock.svg) center/contain no-repeat;
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hypesquad Online-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Hypesquad-Online-tab" i]::before {
@@ -202,6 +202,12 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="STICKERS-tab" i]::before {
 	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/sticker.svg) center/contain no-repeat;
 }
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="guild_automod-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/shield_task.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="guild_automod_message_filter-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/comment_multiple_checkmark.svg) center/contain no-repeat;
+}
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="AUDIT_LOG-tab" i]::before {
 	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/clipboard_text_ltr.svg) center/contain no-repeat;
 }
@@ -217,6 +223,9 @@ body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="COMMUNITY-tab" i]::before {
 	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/people_community.svg) center/contain no-repeat;
+}
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="text_in_voice-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/comment.svg) center/contain no-repeat;
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="ANALYTICS-tab" i]::before {
 	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/data_trending.svg) center/contain no-repeat;
