@@ -2,14 +2,14 @@
 An icon pack for Powercord & BetterDiscord that replaces most icons with Microsoft's Fluent Design Icons. This theme is forked/based on [GoogleMaterialIcons](https://github.com/DavidNyan10/GoogleMaterialIcons).
 
 ## Preview
-![Preview](https://cdn.discordapp.com/attachments/907448714254237726/945503400093712404/unknown.png)
+![Preview](https://repository-images.githubusercontent.com/462101141/77afc648-8708-40a0-a656-72ffcc11af24)
 
 ## This Includes
 * Stylish new fluent icons for the whole UI
 * Icons for context menus and settings, both optional
 * A lot of swag
 
-![Settings Icons](https://cdn.discordapp.com/attachments/907448714254237726/954171781722308648/unknown.png) ![Preview](https://cdn.discordapp.com/attachments/907448714254237726/954171623777398814/unknown.png)
+![Settings Icons](https://cdn.discordapp.com/attachments/956648618696273990/990695027762159707/DiscordCanary_20220626_160808.png) ![Preview](https://cdn.discordapp.com/attachments/956648618696273990/990695170972463224/unknown.png)
 
 ## Powercord Theme Installation
 Open your themes folder with your terminal of choice and paste the following:
