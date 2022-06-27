@@ -1214,7 +1214,7 @@
 }
 
 #mentions-filter-Roles::before {
-	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/shield_person.svg') !important;
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/20/shield_person.svg') !important;
 }
 
 .item-1OdjEX#mentions-filter-Roles .iconContainer-1-SsTR {
@@ -1222,7 +1222,7 @@
 }
 
 .item-1OdjEX[id^="mentions-filter-All Servers"]::before {
-	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/server_multiple.svg') !important;
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/20/server_multiple.svg') !important;
 }
 
 #component-button-copy::before {
