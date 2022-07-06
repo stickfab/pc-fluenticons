@@ -1030,6 +1030,14 @@
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/comment_edit.svg') !important;
 }
 
+#thread-context-pin-thread::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/pin.svg') !important;
+}
+
+#thread-context-unpin-thread::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/pin_off.svg') !important;
+}
+
 #thread-context-edit-tags::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/tag.svg') !important;
 }
