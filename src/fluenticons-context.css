@@ -1,4 +1,5 @@
 @import url("https://crearts-community.github.io/Context-Icons/theme.css");
+
 /* Unknown */
 .item-1OdjEX::before {
 	--icon: url("https://stickfab.github.io/pc-fluenticons/assets/24/question_circle.svg")
@@ -83,13 +84,18 @@
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/mic.svg') !important;
 }
 
-.item-1OdjEX#user-context-mute .iconContainer-1-SsTR {
-	display: flex;
-}
 
 #user-context-mute[aria-checked='true']::before,
 #user-context-voice-mute[aria-checked='true']::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/mic_off.svg') !important;
+}
+
+.item-1OdjEX#user-context-mute .iconContainer-1-SsTR {
+	display: flex;
+}
+
+.item-1OdjEX#user-context-voice-mute .iconContainer-1-SsTR {
+	display: flex;
 }
 
 #user-context-deafen[aria-checked='false']::before {
@@ -102,6 +108,10 @@
 
 .item-1OdjEX#user-context-deafen .iconContainer-1-SsTR {
 	display: flex
+}
+
+.item-1OdjEX#user-context-voice-deafen .iconContainer-1-SsTR {
+	display: flex;
 }
 
 #user-context-disable-video[aria-checked='false']::before {
@@ -172,7 +182,7 @@
 
 #user-context-remove-friend::before,
 #user-profile-actions-user-remove::before {
-	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/person_delete.svg') !important;
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/16/person_subtract.svg') !important;
 }
 
 .item-1OdjEX#user-context-remove-friend.colorDefault-CDqZdO {
@@ -340,7 +350,8 @@
 #live-stage-tile-context-devmode-copy-id::before,
 #guild-entry-context-devmode-copy-id::before,
 #dev-context-devmode-copy-id::before,
-#guild-integrations-permission-role-context-devmode-copy-id::before {
+#guild-integrations-permission-role-context-devmode-copy-id::before,
+#guild-discovery-context-menu-devmode-copy-id::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/copy.svg') !important;
 }
 
@@ -507,6 +518,10 @@
 .item-1OdjEX#message-copy-link .iconContainer-1-SsTR,
 .item-1OdjEX#message-actions-copy-link .iconContainer-1-SsTR {
 	display: none
+}
+
+#message-guild-feed-feature::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/star.svg') !important;
 }
 
 #message-tts::before,
@@ -932,8 +947,13 @@
 }
 
 #guild-header-popout-leave::before,
-#guild-context-leave-guild::before {
+#guild-context-leave-guild::before,
+#guild-header-popout-leave-guild::before {
 	--icon: url("https://stickfab.github.io/pc-fluenticons/assets/24/arrow_circle_left.svg") !important;
+}
+
+.icon-E4cW1l [d="M10.418 13L12.708 15.294L11.292 16.706L6.586 11.991L11.294 7.292L12.707 8.708L10.41 11H21.949C21.446 5.955 17.177 2 12 2C6.486 2 2 6.487 2 12C2 17.513 6.486 22 12 22C17.177 22 21.446 18.046 21.949 13H10.418Z"] {
+	display: none;
 }
 
 #guild-settings-role-context-view-as-role::before,
@@ -977,8 +997,7 @@
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/folder.svg') !important;
 }
 
-#guild-context-join::before,
-#thread-context-join-thread::before {
+#guild-context-join::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/arrow_circle_right.svg') !important;
 }
 
@@ -988,11 +1007,15 @@
 
 /* Thread */
 #thread-context-open::before {
-	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/data_treemap.svg') !important;
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/split_vertical.svg') !important;
+}
+
+#thread-context-join-thread::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/comment_arrow_right.svg') !important;
 }
 
 #thread-context-leave-thread::before {
-	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/arrow_circle_left.svg') !important;
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/comment_arrow_left.svg') !important;
 }
 
 #thread-context-channel-copy-link::before {
@@ -1005,6 +1028,10 @@
 
 #thread-context-edit-thread::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/comment_edit.svg') !important;
+}
+
+#thread-context-edit-tags::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/tag.svg') !important;
 }
 
 #thread-context-archive-thread::before,
@@ -1151,7 +1178,7 @@
 }
 
 #audio-device-context-voice-settings::before {
-	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/options.svg') !important;
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/mic_settings.svg') !important;
 }
 
 /* Settings */
@@ -1171,8 +1198,16 @@
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/apps.svg') !important;
 }
 
-#user-settings-cog-Connections::before {
+#user-settings-cog-Sessions::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/phone_desktop.svg') !important;
+}
+
+#user-settings-cog-Connections::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/plug_connected.svg') !important;
+}
+
+#user-settings-cog-Friend_Requests::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/person_add.svg') !important;
 }
 
 #user-settings-cog-Discord_Nitro::before {
@@ -1375,6 +1410,10 @@
 }
 
 #account-edit-custom-status::before {
+	display: none;
+}
+
+#account-set-custom-status::before {
 	display: none;
 }
 
