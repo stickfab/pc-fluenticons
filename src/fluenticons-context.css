@@ -548,6 +548,10 @@
 	display: none
 }
 
+#message-guild-automod-add-selection::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/20/filter_add.svg') !important;
+}
+
 #message-copy-image::before,
 #image-context-copy-image::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/image_copy.svg') !important;
