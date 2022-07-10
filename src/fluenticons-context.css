@@ -574,9 +574,15 @@
 
 /* Stream */
 #stream-context-watch::before,
-#manage-streams-stop-streaming::before {
+#manage-streams-stop-streaming::before,
+.item-1OdjEX[id^="manage-streams"]::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/live_off.svg') !important;
 }
+
+.item-1OdjEX[id^="manage-streams"] .iconContainer-1-SsTR {
+	display: none
+}
+
 
 #stream-context-mute[aria-checked="true"]::before,
 #user-context-mute-events[aria-checked="true"]::before,
