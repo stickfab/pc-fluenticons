@@ -957,6 +957,33 @@
 	--icon: url("https://stickfab.github.io/pc-fluenticons/assets/24/eye_off.svg") !important;
 }
 
+#guild-header-popout-report-raid::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/shield_error.svg') !important;
+}
+
+.item-1OdjEX#guild-header-popout-report-raid.colorDefault-CDqZdO {
+	background: var(--danger-background-normal);
+	color: var(--status-danger)
+}
+
+.item-1OdjEX#guild-header-popout-report-raid.colorDefault-CDqZdO.focused-3qFvc8 {
+	background: var(--status-danger);
+	color: var(--danger-text-focused)
+}
+
+.item-1OdjEX#guild-header-popout-report-raid.colorDefault-CDqZdO::before {
+	background: var(--status-danger)
+}
+
+.item-1OdjEX#guild-header-popout-report-raid.colorDefault-CDqZdO.focused-3qFvc8::before {
+	background: var(--danger-icon-focused)
+}
+
+.icon-E4cW1l#guild-header-popout-report-raid,
+.iconContainer-1-SsTR {
+	display: none;
+}
+
 #guild-header-popout-leave::before,
 #guild-context-leave-guild::before,
 #guild-header-popout-leave-guild::before {
