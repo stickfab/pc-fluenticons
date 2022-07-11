@@ -141,6 +141,10 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/wrench.svg) center/contain no-repeat;
 }
 
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="activity-privacy-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/16/games_lock.svg) center/contain no-repeat;
+}
+
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game Activity-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Game-Activity-tab" i]::before {
 	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/games.svg) center/contain no-repeat;

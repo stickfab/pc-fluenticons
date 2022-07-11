@@ -337,6 +337,7 @@
 }
 
 /* Copy ID */
+#copy-id-devmode-copy-id::before,
 #user-context-devmode-copy-id::before,
 #gdm-context-devmode-copy-id::before,
 #message-devmode-copy-id::before,
