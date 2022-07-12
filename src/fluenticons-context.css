@@ -896,7 +896,7 @@
 }
 
 #channel-context-create-voice-channel::before {
-	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/add_voice_channel.svg') !important;
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/20/add_voice_channel.svg') !important;
 }
 
 #guild-header-popout-create-category::before,
