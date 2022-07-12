@@ -770,6 +770,14 @@
 }
 
 /* Channel */
+#channel-context-opt-into-channel::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/apps_list.svg') !important;
+}
+
+#channel-context-opt-in-favorite-channel::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/star_line_horizontal_3.svg') !important;
+}
+
 #channel-context-unmute-channel::before,
 #recents-notifications-unmute-channel::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/speaker_off.svg') !important;
@@ -836,11 +844,6 @@
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/copy.svg') !important;
 }
 
-#channel-context-create-text-channel::before,
-#channel-context-create-voice-channel::before {
-	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/add_circle.svg') !important;
-}
-
 #channel-context-channel-copy-link::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/link.svg') !important;
 }
@@ -887,8 +890,13 @@
 }
 
 #guild-header-popout-create-channel::before,
-#guild-context-create-channel::before {
-	--icon: url("https://stickfab.github.io/pc-fluenticons/assets/24/add_circle.svg") !important;
+#guild-context-create-channel::before,
+#channel-context-create-text-channel::before {
+	--icon: url("https://stickfab.github.io/pc-fluenticons/assets/20/add_text_channel.svg") !important;
+}
+
+#channel-context-create-voice-channel::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/add_voice_channel.svg') !important;
 }
 
 #guild-header-popout-create-category::before,
@@ -904,6 +912,14 @@
 #guild-header-popout-create-event::before,
 #guild-context-create-event::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/calendar_add.svg') !important;
+}
+
+#guild-header-popout-opt-in[aria-checked="true"]::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/comment.svg') !important;
+}
+
+#guild-header-popout-opt-in[aria-checked="false"]::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/comment_off.svg') !important;
 }
 
 #guild-header-popout-mark-guild-read::before,
@@ -979,8 +995,7 @@
 	background: var(--danger-icon-focused)
 }
 
-.icon-E4cW1l#guild-header-popout-report-raid,
-.iconContainer-1-SsTR {
+.icon-E4cW1l path[d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1ZM12 11.99H19C18.47 16.11 15.72 19.78 12 20.93V12H5V6.3L12 3.19V11.99Z"] {
 	display: none;
 }
 
@@ -1331,6 +1346,10 @@
 
 #user-settings-cog-Advanced::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/wrench.svg') !important;
+}
+
+#user-settings-cog-Activity_Privacy::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/16/games_lock.svg') !important;
 }
 
 #user-settings-cog-Game_Activity::before {
