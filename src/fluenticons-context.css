@@ -79,6 +79,10 @@
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/live.svg') !important;
 }
 
+#user-context-invite-to-join-embedded::before {
+	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/person_add.svg') !important;
+}
+
 #user-context-mute[aria-checked='false']::before,
 #user-context-voice-mute[aria-checked='false']::before {
 	--icon: url('https://stickfab.github.io/pc-fluenticons/assets/24/mic.svg') !important;
