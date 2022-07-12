@@ -266,6 +266,10 @@ body #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN {
 	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/sticker.svg) center/contain no-repeat;
 }
 
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="SOUNDBOARD-tab" i]::before {
+	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/speaker_2.svg) center/contain no-repeat;
+}
+
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="guild_automod-tab" i]::before {
 	-webkit-mask: url(https://stickfab.github.io/pc-fluenticons/assets/24/shield_task.svg) center/contain no-repeat;
 }
